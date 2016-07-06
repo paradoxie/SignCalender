@@ -45,9 +45,9 @@ public class MainActivity extends AppCompatActivity {
 
         DatePicker2 picker = (DatePicker2) findViewById(R.id.main_dp);
 
-        picker.setFestivalDisplay(false); //是否显示节日
-        picker.setHolidayDisplay(false); //是否显示假期
-        picker.setDeferredDisplay(false); //是否显示补休
+        picker.setFestivalDisplay(true); //是否显示节日
+        picker.setHolidayDisplay(true); //是否显示假期
+        picker.setDeferredDisplay(true); //是否显示补休
 
         Calendar c = Calendar.getInstance();//首先要获取日历对象
         int mYear = c.get(Calendar.YEAR); // 获取当前年份
