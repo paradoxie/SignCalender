@@ -53,6 +53,7 @@
 
 	 dependencies {
 			...
-			compile 'com.github.xzq35110:SignCalender:8ab440460f'
+			compile 'com.github.paradoxie:SignCalender:0.1'
+
 	 }
 
