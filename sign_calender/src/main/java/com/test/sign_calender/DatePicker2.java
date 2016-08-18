@@ -158,26 +158,26 @@ public class DatePicker2 extends LinearLayout {
         monthView.setOnDateScrollChangeListener(new MonthView.OnDateScrollChangeListener() {
             @Override
             public void scrollLeft(int year, int month) {
-                String str = "向左滑动=="+"年份="+year+"--月份=="+month;
-                Toast.makeText(context,str, Toast.LENGTH_SHORT).show();
+//                String str = "向左滑动=="+"年份="+year+"--月份=="+month;
+//                Toast.makeText(context,str, Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void scrollRight(int year, int month) {
-                String str = "向右滑动=="+"年份="+year+"--月份=="+month;
-                Toast.makeText(context,str, Toast.LENGTH_SHORT).show();
+//                String str = "向右滑动=="+"年份="+year+"--月份=="+month;
+//                Toast.makeText(context,str, Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void scrollTop(int year, int month) {
-                String str = "向上滑动=="+"年份="+year+"--月份=="+month;
-                Toast.makeText(context,str, Toast.LENGTH_SHORT).show();
+//                String str = "向上滑动=="+"年份="+year+"--月份=="+month;
+//                Toast.makeText(context,str, Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void scrollBottom(int year, int month) {
-                String str = "向下滑动=="+"年份="+year+"--月份=="+month;
-                Toast.makeText(context,str, Toast.LENGTH_SHORT).show();
+//                String str = "向下滑动=="+"年份="+year+"--月份=="+month;
+//                Toast.makeText(context,str, Toast.LENGTH_SHORT).show();
             }
         });
         addView(monthView, llParams);

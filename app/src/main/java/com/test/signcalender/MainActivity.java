@@ -37,10 +37,10 @@ public class MainActivity extends AppCompatActivity {
 //        List<String> tmp = gson.fromJson(SignActivity.sign_time, new TypeToken<List<String>>() {
 //        }.getType());
         List<String> tmp = new ArrayList<>();
-        tmp.add("2016-7-2");
-        tmp.add("2016-7-4");
-        tmp.add("2016-07-21");
-        tmp.add("2016-07-15");
+        tmp.add("2016-8-2");
+        tmp.add("2016-8-4");
+        tmp.add("2016-08-21");
+        tmp.add("2016-08-09");
         DPCManager.getInstance().setDecorBG(tmp);
 
         DatePicker2 picker = (DatePicker2) findViewById(R.id.main_dp);
